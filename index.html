@@ -2,11 +2,22 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <main>
+            <img id="logo" src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png">
+            <form action="https://www.google.com/search" target="blank">
+                <input type="text" name="q" placeholder="Search Google..." required id="searchbar">
+                <input type="submit" name="btnG" value="Google Search" id="searchbtn">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" id="lucky">
+            </form>
+            <a id="images" href="images.html">Image Search</a>
+            <a id="adv" href="advanced.html">Advanced Search</a>
+        </main>
+        <foooter>
+            <p id="country">India</p>
+            <hr>
+        </foooter>
     </body>
 </html>
