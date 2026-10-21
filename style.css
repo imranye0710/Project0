@@ -106,4 +106,23 @@
     left: 100px;
     height: 50px;
 }
+
+#container {
+    margin-left: 100px;
+    height: 350px;
+    width: 600px;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.filter {
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
  

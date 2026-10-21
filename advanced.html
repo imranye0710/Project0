@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="index.html" style="position: relative; right: -1620px;">Google</a>
     <img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" id="advlogo">
     <hr index="advhr">
 
-    <form action="https://google.com" method="GET">
+    <p style="font-size: 30px; margin-left: 100px;"">Advanced Search</p>
+    <p style="font-size: 20px; margin-left: 100px;">Find pages with</p>
+
+    <form action="https://google.com" method="GET" id="container">
     
-        <input type="text" name="as_q">
-        <input type="text" name="as_epq">
-        <input type="text" name="as_oq">
-        <input type="text" name="as_eq">
+        <p>All these Words: <input type="text" name="as_q" class="filter"></p>
+        <p>This exact Word or Phrase: <input type="text" name="as_epq" class="filter"></p>
+        <p>Any of these Words: <input type="text" name="as_oq" class="filter"></p>
+        <p>None of these Words: <input type="text" name="as_eq" class="filter"></p>
 
-        <input type="submit" value="Advanced Search">
+        <div style="display: flex; flex-direction: row-reverse;">
+            <button type="submit" style="height: 50px; width: 200px; font-size: 20px; border: 1px solid white; border-radius: 40px;">Advanced Search</button>
+        </div>
     </form>
-
 </body>
 </html>
